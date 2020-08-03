@@ -1,0 +1,321 @@
+Exercise,Gender,Max Type,Bodyweight,Beginner,Novice,Intermediate,Advanced,Elite
+Standing Calf Raise,Male,Weight,160,66,149,271,428,612
+Standing Calf Raise,Male,Weight,170,75,162,288,450,639
+Standing Calf Raise,Male,Weight,180,84,175,305,472,664
+Standing Calf Raise,Male,Weight,190,93,188,322,493,689
+Standing Calf Raise,Male,Weight,200,102,200,338,513,713
+Standing Calf Raise,Male,Weight,210,111,213,354,532,735
+Standing Calf Raise,Male,Weight,220,120,225,370,551,758
+Standing Calf Raise,Male,Weight,230,128,236,385,570,779
+Standing Calf Raise,Female,Weight,110,19,66,144,253,386
+Standing Calf Raise,Female,Weight,120,23,73,155,267,403
+Standing Calf Raise,Female,Weight,130,27,80,165,281,420
+Standing Calf Raise,Female,Weight,140,31,87,175,294,435
+Standing Calf Raise,Female,Weight,150,35,93,184,306,450
+Standing Calf Raise,Female,Weight,160,39,100,193,317,464
+Standing Calf Raise,Female,Weight,170,43,106,202,328,477
+Standing Calf Raise,Female,Weight,180,47,112,210,339,490
+Seated Calf Raise,Male,Weight,160,49,113,208,332,478
+Seated Calf Raise,Male,Weight,170,55,122,220,348,496
+Seated Calf Raise,Male,Weight,180,61,131,233,363,514
+Seated Calf Raise,Male,Weight,190,67,140,244,377,532
+Seated Calf Raise,Male,Weight,200,73,148,256,392,548
+Seated Calf Raise,Male,Weight,210,79,157,267,405,564
+Seated Calf Raise,Male,Weight,220,85,165,277,418,580
+Seated Calf Raise,Male,Weight,230,91,173,288,431,595
+Seated Calf Raise,Female,Weight,110,17,56,122,214,326
+Seated Calf Raise,Female,Weight,120,20,62,131,225,339
+Seated Calf Raise,Female,Weight,130,23,67,139,236,352
+Seated Calf Raise,Female,Weight,140,26,73,146,245,364
+Seated Calf Raise,Female,Weight,150,29,78,153,255,375
+Seated Calf Raise,Female,Weight,160,32,83,160,264,386
+Seated Calf Raise,Female,Weight,170,35,87,167,272,396
+Seated Calf Raise,Female,Weight,180,38,92,173,280,406
+Barbell Curl,Male,Weight,160,37,62,95,136,181
+Barbell Curl,Male,Weight,170,40,66,101,142,189
+Barbell Curl,Male,Weight,180,43,71,106,148,196
+Barbell Curl,Male,Weight,190,47,75,111,154,203
+Barbell Curl,Male,Weight,200,50,79,116,160,209
+Barbell Curl,Male,Weight,210,53,83,121,166,216
+Barbell Curl,Male,Weight,220,56,87,125,171,222
+Barbell Curl,Male,Weight,230,59,90,130,177,228
+Barbell Curl,Female,Weight,110,10,24,44,71,102
+Barbell Curl,Female,Weight,120,12,26,47,75,106
+Barbell Curl,Female,Weight,130,13,29,50,78,111
+Barbell Curl,Female,Weight,140,15,31,53,82,115
+Barbell Curl,Female,Weight,150,16,33,56,85,119
+Barbell Curl,Female,Weight,160,18,35,58,88,122
+Barbell Curl,Female,Weight,170,19,36,61,91,126
+Barbell Curl,Female,Weight,180,20,38,63,94,129
+Lying Tricep Extension,Male,Weight,160,33,58,92,133,180
+Lying Tricep Extension,Male,Weight,170,37,63,98,141,189
+Lying Tricep Extension,Male,Weight,180,41,69,105,149,198
+Lying Tricep Extension,Male,Weight,190,45,74,111,156,207
+Lying Tricep Extension,Male,Weight,200,49,79,117,164,215
+Lying Tricep Extension,Male,Weight,210,53,84,123,171,223
+Lying Tricep Extension,Male,Weight,220,57,89,129,178,231
+Lying Tricep Extension,Male,Weight,230,61,93,135,184,239
+Lying Tricep Extension,Female,Weight,110,10,24,44,70,100
+Lying Tricep Extension,Female,Weight,120,11,25,46,73,104
+Lying Tricep Extension,Female,Weight,130,12,27,48,75,107
+Lying Tricep Extension,Female,Weight,140,14,29,50,78,110
+Lying Tricep Extension,Female,Weight,150,15,30,52,80,113
+Lying Tricep Extension,Female,Weight,160,15,31,54,82,115
+Lying Tricep Extension,Female,Weight,170,16,33,56,85,118
+Lying Tricep Extension,Female,Weight,180,17,34,57,87,120
+Bench Press,Male,Weight,160,100,141,193,252,316
+Bench Press,Male,Weight,170,109,152,206,267,333
+Bench Press,Male,Weight,180,118,163,218,281,348
+Bench Press,Male,Weight,190,127,174,230,295,364
+Bench Press,Male,Weight,200,136,184,242,308,379
+Bench Press,Male,Weight,210,145,194,254,321,393
+Bench Press,Male,Weight,220,153,204,265,334,407
+Bench Press,Male,Weight,230,162,214,276,347,421
+Bench Press,Female,Weight,110,27,52,86,128,177
+Bench Press,Female,Weight,120,32,58,93,137,187
+Bench Press,Female,Weight,130,36,63,100,145,197
+Bench Press,Female,Weight,140,40,68,107,153,206
+Bench Press,Female,Weight,150,44,73,113,161,215
+Bench Press,Female,Weight,160,47,78,119,168,223
+Bench Press,Female,Weight,170,51,83,125,175,231
+Bench Press,Female,Weight,180,55,88,131,182,239
+Incline Bench,Male,Weight,160,94,130,173,223,276
+Incline Bench,Male,Weight,170,103,140,185,236,291
+Incline Bench,Male,Weight,180,112,151,197,250,306
+Incline Bench,Male,Weight,190,121,161,209,263,320
+Incline Bench,Male,Weight,200,130,171,220,275,334
+Incline Bench,Male,Weight,210,138,180,231,287,347
+Incline Bench,Male,Weight,220,146,190,241,299,360
+Incline Bench,Male,Weight,230,154,199,252,311,373
+Incline Bench,Female,Weight,110,20,41,72,112,158
+Incline Bench,Female,Weight,120,23,46,79,121,168
+Incline Bench,Female,Weight,130,27,51,86,129,178
+Incline Bench,Female,Weight,140,30,56,92,136,187
+Incline Bench,Female,Weight,150,34,61,98,144,195
+Incline Bench,Female,Weight,160,37,66,104,151,204
+Incline Bench,Female,Weight,170,41,70,110,158,212
+Incline Bench,Female,Weight,180,44,75,115,164,219
+Shoulder Press,Male,Weight,160,62,90,125,166,210
+Shoulder Press,Male,Weight,170,68,97,134,176,221
+Shoulder Press,Male,Weight,180,74,104,142,185,231
+Shoulder Press,Male,Weight,190,79,111,150,194,241
+Shoulder Press,Male,Weight,200,85,118,157,202,251
+Shoulder Press,Male,Weight,210,91,124,165,211,260
+Shoulder Press,Male,Weight,220,96,130,172,219,270
+Shoulder Press,Male,Weight,230,101,136,179,227,278
+Shoulder Press,Female,Weight,110,22,38,60,87,117
+Shoulder Press,Female,Weight,120,25,42,65,92,123
+Shoulder Press,Female,Weight,130,27,45,68,97,128
+Shoulder Press,Female,Weight,140,30,48,72,101,134
+Shoulder Press,Female,Weight,150,32,51,76,106,139
+Shoulder Press,Female,Weight,160,34,54,79,110,143
+Shoulder Press,Female,Weight,170,36,57,83,114,148
+Shoulder Press,Female,Weight,180,39,59,86,117,152
+Dips,Male,Reps,160,1,9,19,32,45
+Dips,Male,Reps,170,2,9,19,31,44
+Dips,Male,Reps,180,2,9,19,31,43
+Dips,Male,Reps,190,2,9,19,30,42
+Dips,Male,Reps,200,2,9,19,29,41
+Dips,Male,Reps,210,3,9,18,29,40
+Dips,Male,Reps,220,3,9,18,28,39
+Dips,Male,Reps,230,3,9,18,28,38
+Dips,Female,Reps,110,1,2,10,22,34
+Dips,Female,Reps,120,1,2,10,21,33
+Dips,Female,Reps,130,1,2,10,20,32
+Dips,Female,Reps,140,1,2,10,20,31
+Dips,Female,Reps,150,1,2,10,19,29
+Dips,Female,Reps,160,1,2,9,18,28
+Dips,Female,Reps,170,1,2,9,18,27
+Dips,Female,Reps,180,1,2,9,17,26
+Back Squat,Male,Weight,160,136,190,256,333,415
+Back Squat,Male,Weight,170,148,204,273,352,437
+Back Squat,Male,Weight,180,160,219,290,371,457
+Back Squat,Male,Weight,190,172,233,306,389,477
+Back Squat,Male,Weight,200,184,246,321,406,497
+Back Squat,Male,Weight,210,195,259,336,423,515
+Back Squat,Male,Weight,220,207,272,351,440,534
+Back Squat,Male,Weight,230,218,285,365,456,551
+Back Squat,Female,Weight,110,52,87,134,191,254
+Back Squat,Female,Weight,120,58,95,143,202,267
+Back Squat,Female,Weight,130,63,102,152,212,278
+Back Squat,Female,Weight,140,69,109,160,222,290
+Back Squat,Female,Weight,150,74,115,168,231,300
+Back Squat,Female,Weight,160,79,121,175,240,310
+Back Squat,Female,Weight,170,84,127,183,248,320
+Back Squat,Female,Weight,180,89,133,190,256,329
+Front Squat,Male,Weight,160,113,156,209,269,334
+Front Squat,Male,Weight,170,121,166,220,283,349
+Front Squat,Male,Weight,180,130,176,232,296,363
+Front Squat,Male,Weight,190,139,186,243,308,377
+Front Squat,Male,Weight,200,147,196,254,320,391
+Front Squat,Male,Weight,210,155,205,265,332,404
+Front Squat,Male,Weight,220,163,214,275,344,417
+Front Squat,Male,Weight,230,170,223,285,355,429
+Front Squat,Female,Weight,110,56,84,118,158,202
+Front Squat,Female,Weight,120,61,89,124,165,210
+Front Squat,Female,Weight,130,65,94,130,172,217
+Front Squat,Female,Weight,140,69,98,135,178,224
+Front Squat,Female,Weight,150,72,103,141,184,231
+Front Squat,Female,Weight,160,76,107,146,190,237
+Front Squat,Female,Weight,170,79,111,150,195,244
+Front Squat,Female,Weight,180,83,115,155,200,249
+Split Squat,Male,Weight,160,53,105,177,268,372
+Split Squat,Male,Weight,170,61,115,190,283,390
+Split Squat,Male,Weight,180,68,124,202,298,408
+Split Squat,Male,Weight,190,75,134,214,313,425
+Split Squat,Male,Weight,200,82,143,226,327,441
+Split Squat,Male,Weight,210,88,152,237,341,457
+Split Squat,Male,Weight,220,95,161,248,354,473
+Split Squat,Male,Weight,230,102,170,259,367,488
+Split Squat,Female,Weight,110,25,53,95,148,210
+Split Squat,Female,Weight,120,27,56,99,153,215
+Split Squat,Female,Weight,130,29,59,102,157,221
+Split Squat,Female,Weight,140,31,62,106,162,226
+Split Squat,Female,Weight,150,33,64,109,166,231
+Split Squat,Female,Weight,160,34,67,112,170,235
+Split Squat,Female,Weight,170,36,69,115,173,240
+Split Squat,Female,Weight,180,37,71,118,177,244
+Hack Squat,Male,Weight,160,94,180,298,447,616
+Hack Squat,Male,Weight,170,106,195,318,471,644
+Hack Squat,Male,Weight,180,117,210,337,494,671
+Hack Squat,Male,Weight,190,128,225,356,516,697
+Hack Squat,Male,Weight,200,139,239,374,538,723
+Hack Squat,Male,Weight,210,149,253,391,559,747
+Hack Squat,Male,Weight,220,160,267,408,579,771
+Hack Squat,Male,Weight,230,171,280,425,599,793
+Hack Squat,Female,Weight,110,29,77,152,253,372
+Hack Squat,Female,Weight,120,35,86,164,268,390
+Hack Squat,Female,Weight,130,40,94,175,282,407
+Hack Squat,Female,Weight,140,45,102,186,295,423
+Hack Squat,Female,Weight,150,50,109,196,308,439
+Hack Squat,Female,Weight,160,55,117,206,321,453
+Hack Squat,Female,Weight,170,60,124,216,332,467
+Hack Squat,Female,Weight,180,65,131,225,344,481
+Deadlift,Male,Weight,160,166,228,302,388,479
+Deadlift,Male,Weight,170,180,244,321,409,502
+Deadlift,Male,Weight,180,193,259,339,429,525
+Deadlift,Male,Weight,190,206,274,356,448,546
+Deadlift,Male,Weight,200,219,289,373,467,567
+Deadlift,Male,Weight,210,232,303,389,485,587
+Deadlift,Male,Weight,220,244,318,405,503,607
+Deadlift,Male,Weight,230,256,331,421,520,626
+Deadlift,Female,Weight,110,68,109,161,225,295
+Deadlift,Female,Weight,120,74,117,171,237,308
+Deadlift,Female,Weight,130,81,125,181,248,321
+Deadlift,Female,Weight,140,87,132,190,258,333
+Deadlift,Female,Weight,150,93,139,199,268,344
+Deadlift,Female,Weight,160,98,146,207,278,355
+Deadlift,Female,Weight,170,104,153,215,287,366
+Deadlift,Female,Weight,180,109,159,222,296,375
+Sumo Deadlift,Male,Weight,160,186,253,334,427,526
+Sumo Deadlift,Male,Weight,170,201,270,354,449,550
+Sumo Deadlift,Male,Weight,180,215,286,372,469,573
+Sumo Deadlift,Male,Weight,190,229,302,390,490,595
+Sumo Deadlift,Male,Weight,200,242,318,408,509,616
+Sumo Deadlift,Male,Weight,210,255,333,425,528,637
+Sumo Deadlift,Male,Weight,220,268,347,441,546,657
+Sumo Deadlift,Male,Weight,230,280,361,457,564,677
+Sumo Deadlift,Female,Weight,110,91,131,181,239,302
+Sumo Deadlift,Female,Weight,120,96,137,188,248,312
+Sumo Deadlift,Female,Weight,130,101,143,195,256,321
+Sumo Deadlift,Female,Weight,140,106,149,202,263,329
+Sumo Deadlift,Female,Weight,150,110,154,208,270,337
+Sumo Deadlift,Female,Weight,160,114,159,214,277,345
+Sumo Deadlift,Female,Weight,170,118,164,220,283,352
+Sumo Deadlift,Female,Weight,180,122,169,225,289,358
+Romanian Deadlift,Male,Weight,160,116,172,242,323,413
+Romanian Deadlift,Male,Weight,170,127,184,257,341,432
+Romanian Deadlift,Male,Weight,180,137,197,271,357,451
+Romanian Deadlift,Male,Weight,190,147,209,285,374,469
+Romanian Deadlift,Male,Weight,200,157,221,299,389,487
+Romanian Deadlift,Male,Weight,210,167,232,312,405,504
+Romanian Deadlift,Male,Weight,220,176,243,325,419,520
+Romanian Deadlift,Male,Weight,230,185,254,338,434,536
+Romanian Deadlift,Female,Weight,110,55,87,130,180,236
+Romanian Deadlift,Female,Weight,120,59,92,135,187,244
+Romanian Deadlift,Female,Weight,130,62,97,141,193,251
+Romanian Deadlift,Female,Weight,140,66,101,146,199,258
+Romanian Deadlift,Female,Weight,150,69,105,151,205,265
+Romanian Deadlift,Female,Weight,160,72,109,156,211,271
+Romanian Deadlift,Female,Weight,170,75,113,160,216,277
+Romanian Deadlift,Female,Weight,180,78,116,164,221,282
+Hip Thrust,Male,Weight,160,89,163,265,393,537
+Hip Thrust,Male,Weight,170,100,179,285,417,565
+Hip Thrust,Male,Weight,180,112,194,305,440,592
+Hip Thrust,Male,Weight,190,123,209,324,463,618
+Hip Thrust,Male,Weight,200,135,224,342,485,644
+Hip Thrust,Male,Weight,210,146,239,360,506,669
+Hip Thrust,Male,Weight,220,158,253,378,527,692
+Hip Thrust,Male,Weight,230,169,267,395,547,716
+Hip Thrust,Female,Weight,110,50,100,172,262,366
+Hip Thrust,Female,Weight,120,54,106,179,271,376
+Hip Thrust,Female,Weight,130,57,111,185,279,386
+Hip Thrust,Female,Weight,140,61,115,191,286,395
+Hip Thrust,Female,Weight,150,64,120,197,293,403
+Hip Thrust,Female,Weight,160,67,124,202,300,411
+Hip Thrust,Female,Weight,170,70,128,208,306,418
+Hip Thrust,Female,Weight,180,73,132,213,312,425
+Pull Up,Male,Reps,160,1,6,13,23,33
+Pull Up,Male,Reps,170,1,6,13,23,32
+Pull Up,Male,Reps,180,1,6,13,22,31
+Pull Up,Male,Reps,190,1,6,12,21,30
+Pull Up,Male,Reps,200,1,5,12,21,29
+Pull Up,Male,Reps,210,1,5,12,20,29
+Pull Up,Male,Reps,220,1,5,11,19,28
+Pull Up,Male,Reps,230,1,5,11,19,27
+Pull Up,Female,Reps,110,1,2,6,14,23
+Pull Up,Female,Reps,120,1,2,6,13,22
+Pull Up,Female,Reps,130,1,2,6,13,21
+Pull Up,Female,Reps,140,1,2,6,12,20
+Pull Up,Female,Reps,150,1,2,6,12,19
+Pull Up,Female,Reps,160,1,2,6,11,19
+Pull Up,Female,Reps,170,1,2,5,11,18
+Pull Up,Female,Reps,180,1,2,5,10,17
+Pendlay Row,Male,Weight,160,98,134,178,228,282
+Pendlay Row,Male,Weight,170,107,144,190,241,296
+Pendlay Row,Male,Weight,180,115,154,201,254,310
+Pendlay Row,Male,Weight,190,124,164,212,266,324
+Pendlay Row,Male,Weight,200,132,173,222,278,337
+Pendlay Row,Male,Weight,210,140,182,233,289,349
+Pendlay Row,Male,Weight,220,147,191,243,301,362
+Pendlay Row,Male,Weight,230,155,200,252,311,374
+Pendlay Row,Female,Weight,110,44,66,94,128,164
+Pendlay Row,Female,Weight,120,48,71,100,134,172
+Pendlay Row,Female,Weight,130,51,75,105,140,179
+Pendlay Row,Female,Weight,140,55,79,110,146,185
+Pendlay Row,Female,Weight,150,58,84,115,152,191
+Pendlay Row,Female,Weight,160,61,87,120,157,197
+Pendlay Row,Female,Weight,170,64,91,124,162,203
+Pendlay Row,Female,Weight,180,67,95,128,167,208
+Chin Up,Male,Reps,160,1,7,14,22,32
+Chin Up,Male,Reps,170,1,7,13,22,31
+Chin Up,Male,Reps,180,1,7,13,21,30
+Chin Up,Male,Reps,190,1,7,13,21,29
+Chin Up,Male,Reps,200,1,6,12,20,28
+Chin Up,Male,Reps,210,1,6,12,19,27
+Chin Up,Male,Reps,220,1,6,11,19,26
+Chin Up,Male,Reps,230,1,6,11,18,25
+Chin Up,Female,Reps,110,1,2,6,12,19
+Chin Up,Female,Reps,120,1,2,6,12,18
+Chin Up,Female,Reps,130,1,2,6,11,18
+Chin Up,Female,Reps,140,1,2,6,11,17
+Chin Up,Female,Reps,150,1,2,6,10,16
+Chin Up,Female,Reps,160,1,2,6,10,15
+Chin Up,Female,Reps,170,1,2,5,10,15
+Chin Up,Female,Reps,180,1,2,5,9,14
+Power Clean,Male,Weight,160,98,136,183,237,295
+Power Clean,Male,Weight,170,105,144,193,248,308
+Power Clean,Male,Weight,180,112,152,202,259,319
+Power Clean,Male,Weight,190,118,160,211,269,331
+Power Clean,Male,Weight,200,125,168,220,279,342
+Power Clean,Male,Weight,210,131,175,228,288,352
+Power Clean,Male,Weight,220,138,183,237,298,363
+Power Clean,Male,Weight,230,144,190,245,307,372
+Power Clean,Female,Weight,110,50,72,101,133,169
+Power Clean,Female,Weight,120,54,77,106,140,176
+Power Clean,Female,Weight,130,57,81,111,146,183
+Power Clean,Female,Weight,140,61,86,116,151,189
+Power Clean,Female,Weight,150,64,89,121,156,195
+Power Clean,Female,Weight,160,67,93,125,161,200
+Power Clean,Female,Weight,170,70,97,129,166,206
+Power Clean,Female,Weight,180,73,100,133,171,211

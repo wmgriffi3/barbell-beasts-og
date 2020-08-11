@@ -1,0 +1,98 @@
+import pandas as pd
+import sqlite3 as sql
+import datetime 
+
+## Import lifting history from Fitnotes
+lifting_tracker = pd.read_csv('C:/Users/wmgriffi/Documents/Barbell Beasts/FitNotes_Export_2020_08_03_14_54_03.csv')
+lifting_tracker['Date'] = pd.to_datetime(lifting_tracker['Date'])
+## Limting lifting history data to only the last 3 months
+three_months_ago = datetime.datetime.now() - datetime.timedelta(days = 7*4*3)
+lifting_tracker = lifting_tracker[lifting_tracker['Date'] >= three_months_ago]
+
+## Need to pull weight speicifc exercises to calculate 1 rep max
+lifting_tracker['Max Weight'] = round(lifting_tracker['Weight (lbs)']*(36/(37-lifting_tracker['Reps'])))
+weight_exercises = [
+  'Barbell Back Squat', 'Barbell Front Squat', 'Push Press', 'Barbell Split Squat',
+  'Barbell Bench Press', 'Barbell Shoulder Press', 'Barbell Incline Press',
+  'Conventional Deadlift', 'Sumo Deadlift', 'Barbell Hack Squat', 'Barbell Hip Thrust',
+  'Pendlay Rows', 'Power Clean',
+  'Barbell Bicep Curls', 'Barbell Tricep Extensions', 'Seated Calf Raises', 'Standing Calf Raises']
+max_weights = lifting_tracker[lifting_tracker['Exercise'].isin(weight_exercises)]
+max_weights = max_weights.loc[max_weights.groupby(['Exercise'])['Max Weight'].idxmax()]
+max_weights = max_weights[['Exercise','Max Weight']]
+max_weights.columns = ['Exercise','Max']
+
+## Need to pull rep speicifc exercises to calculate total rep max
+rep_exercises = ['Pull Ups', 'Chin Ups', 'Chest Dips']
+max_reps = lifting_tracker[lifting_tracker['Exercise'].isin(rep_exercises)]
+max_reps = max_reps.loc[max_reps.groupby(['Exercise'])['Reps'].idxmax()]
+max_reps = max_reps[['Exercise','Reps']]
+max_reps.columns = ['Exercise', 'Max']
+
+## Combine max weight and max reps into a max column
+maxes = pd.concat([max_weights, max_reps], ignore_index=True)
+
+
+## Import body tracker data from Fitnotes
+body_tracker = pd.read_csv('C:/Users/wmgriffi/Documents/Barbell Beasts/FitNotes_BodyTracker_Export_2020_08_03_14_54_03.csv')
+## Need an empty space to combine date and time
+body_tracker['Space'] = ' '
+## Combine and convert date and time to datetime to limit exercises to only recent data
+body_tracker['DateTime'] = pd.to_datetime(body_tracker[['Date', 'Space', 'Time']].apply(lambda x: ''.join(x), axis=1))
+
+## Find the most recent recorded body weight to join to lifting standards
+latest_body_record = body_tracker[body_tracker['DateTime'] == max(body_tracker['DateTime'])].index[0]
+## Use the most recent record to save current body weight
+## Round it up to the nearst 10 value
+latest_body_weight = round(body_tracker.loc[latest_body_record,'Value'], -1)
+
+
+## Import lifting standards
+lifting_standards = pd.read_csv('C:/Users/wmgriffi/Documents/Barbell Beasts/weight_lifting_standards.csv')
+## Hard code gender for Male right now
+lifter_gender = 'Male'
+## Narrow the lifting standards down to only the relevant rows
+## Done by using current body weight and gender
+relevant_standards = lifting_standards[lifting_standards['Gender'] == lifter_gender]
+relevant_standards = relevant_standards[relevant_standards['Bodyweight'] == latest_body_weight]
+relevant_standards = pd.merge(relevant_standards, maxes, on='Exercise', how='outer')
+
+## Define and label the exercise level by comparing which category they fall between
+def level_flag (row):
+  if row['Max'] > row['Elite']:
+    return 5
+  elif row['Max'] > row['Advanced']:
+    return 4
+  elif row['Max'] > row['Intermediate']:
+    return 3
+  elif row['Max'] > row['Novice']:
+    return 2
+  else:
+    return 1
+relevant_standards['Level'] = relevant_standards.apply(lambda row: level_flag(row), axis=1)
+
+## Assign levels to a variable for each exercise to be used for the UI screen and reading images
+squat_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Barbell Back Squat'].values
+front_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Barbell Front Squat'].values
+split_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Barbell Split Squat'].values
+push_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Push Press'].values
+
+deads_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Conventional Deadlift'].values
+sumo_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Sumo Deadlift'].values
+hack_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Barbell Hack Squat'].values
+hips_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Barbell Hip Thrust'].values
+
+pulls_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Pull Ups'].values
+chins_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Chin Ups'].values
+rows_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Pendlay Rows'].values
+clean_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Power Clean'].values
+
+bench_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Barbell Bench Press'].values
+press_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Barbell Shoulder Press'].values
+dips_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Chest Dips'].values
+incline_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Barbell Incline Press'].values
+
+curl_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Barbell Bicep Curls'].values
+tris_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Barbell Tricep Extensions'].values
+seat_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Seated Calf Raises'].values
+stand_level = relevant_standards['Level'][relevant_standards['Exercise'] == 'Standing Calf Raises'].values
